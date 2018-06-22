@@ -1,0 +1,7 @@
+test01 화살표 함수의 선언
+test02 화살표 함수의 호출
+test03 this
+test04 method
+test05 prototype
+test06 생성자
+test07 addEventListener

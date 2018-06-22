@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">버튼</button>
+    <button id="btn2">버튼2</button>
+    <script>
+        /*
+
+            addEventListener 함수의 콜백함수로 화살표 함수를 정의하면
+            this가 상위 컨택스트인 전역 객체 window 를 가리킨다.
+
+        */
+
+        var btn = document.querySelector("#btn");
+        var btn2 = document.querySelector("#btn2");
+
+        btn.addEventListener("click",()=>{
+            console.log(this === window) // true
+            this.innerHTML = "<h1>버튼 클릭</h1>"; // 실행 안됨
+            console.log(window); // 프로퍼티에 생성됨
+        })
+
+        btn2.addEventListener("click",function(){
+            console.log(this === window) // false
+            console.log(this === btn2) // true
+            this.innerHTML = "<h1>버튼 클릭</h1>";
+        })
+        // addEventListener 에 콜백함수로 일반 함수를 정의해야 this가 바인딩된 요소(currentTarget)를 가리킨다.
+    </script>
+</body>
+</html>
