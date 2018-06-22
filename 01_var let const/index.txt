@@ -1,0 +1,11 @@
+test01 - var 전역변수
+test02 - let 호이스팅과 변수 선언 3단계
+test03 - let 중복 선언 금지
+test04 - let block level scope
+test05 - closer
+test06 - let 으로 closer 대체하기
+test07 - 전역객체와 let
+test08 - const 재할당 금지
+test09 - const 초기화 및 block level scope
+test10 - const 상수
+test11 - const 객체
