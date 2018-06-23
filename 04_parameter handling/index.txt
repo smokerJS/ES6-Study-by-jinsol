@@ -1,0 +1,7 @@
+test01 - default parameter value
+test02 - rest parameter
+test03 - arguments
+test04 - spread 문법
+test05 - spread 함수의 인자로 사용
+test06 - spread 배열에서의 사용
+test07 - spread 객체에서의 사용
