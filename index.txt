@@ -1,4 +1,6 @@
 ES6 스터디는 https://poiemaweb.com/ 를 참조하였습니다.
+github : https://github.com/smokerJS/ES6-Study-by-jinsol
+mail : jjshoro@gmail.com
 
 01_ 변수선언 키워드
 02_ ES6 새로운 문자열 표기법
@@ -7,3 +9,4 @@ ES6 스터디는 https://poiemaweb.com/ 를 참조하였습니다.
 05_ 객체
 06_ 디스트럭처링
 07_ 클래스
+08_ 모듈
