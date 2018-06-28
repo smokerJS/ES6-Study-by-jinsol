@@ -1,0 +1,6 @@
+test01 - symbol
+test02 - immutable type
+test03 - 심볼의 사용
+test04 - 심볼객체
+test05 - Symbol.iterator
+test06 - Symbol.for
